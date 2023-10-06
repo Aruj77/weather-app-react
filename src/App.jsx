@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import CurrentLocation from "./currentLocation";
 import "./App.css";
 
@@ -13,7 +13,7 @@ function App() {
           Download Source Code
         </a>{" "}
         | Developed by{" "}
-        <a target="_blank" href="#">
+        <a target="_blank" rel="noreferrer" href="https://github.com/Aruj77">
           Aruj Bansal
         </a>
       </div>

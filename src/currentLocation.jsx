@@ -180,11 +180,13 @@ class Weather extends React.Component {
                 <div className="current-date">{dateBuilder(new Date())}</div>
               </div>
               <div className="temperature">
-                <p>
+                <select>
+                    <option><p>
                   {this.state.temperatureC}°<span>C</span>
-                </p>
-                {/* <span className="slash">/</span>
-                {this.state.temperatureF} &deg;F */}
+                </p></option>
+                    <option>
+                {this.state.temperatureF} &deg;F</option>
+                </select>
               </div>
             </div>
           </div>
